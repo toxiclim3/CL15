@@ -41,17 +41,14 @@ h4
 
 header
 {
-	width: 100%;
-	height: 5vh;
+	width: 100vw;
 
 	padding:1.5% 3.5%;
-	margin: auto;
+
 
 	background-color: white;
 
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+
 }
 
 header .combinamajig
@@ -540,6 +537,7 @@ header .links a:hover
 	header
 	{
 		height: auto;
+		padding: 1.5% 0 ;
 	}
 
 	header .combinamajig
@@ -558,8 +556,20 @@ header .links a:hover
 
 	header .combinamajig .links
 	{
+		display:  grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		gap: 0.5em 0;
+
+		margin: auto;
+
 		width: 90%;
-		font-size: 1.3em;
+		font-size: 1.2em;
+	}
+
+	header .combinamajig .links a
+	{
+		width: fit-content;
 	}
 
 
@@ -651,4 +661,12 @@ header .links a:hover
 	}
 
 
+}
+
+@media screen and (max-width: 375px) 
+{
+	header .combinamajig .links
+	{
+		width: 95vw;
+	}
 }
