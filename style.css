@@ -54,7 +54,6 @@ header
 header .combinamajig
 {
 	width: 100%;
-	height: 1.8rem;
 
 	display: flex;
 	justify-content: space-between;
@@ -196,6 +195,16 @@ header .links a:hover
 .layer1 .butt .explore:hover
 {	background: #3743a0;
 	outline: 4px solid #f37e53;
+}
+
+.layer1 .scroll
+{
+	width: 100vw;
+	margin: 2% 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .imgs
@@ -544,7 +553,6 @@ header .links a:hover
 	{
 
 		width: 100%;
-		height: 10vh;
 		flex-direction: column;
 	}
 
@@ -576,6 +584,7 @@ header .links a:hover
 	.layer1
 	{
 		justify-content: space-evenly;
+		padding: 0;
 	}
 
 	.layer1 .container h1
@@ -593,6 +602,11 @@ header .links a:hover
 	{
 		font-size: 1.3em;
 		width: 80%;	
+	}
+
+	.layer1 .butt
+	{
+		width: 100%;
 	}
 
 	.imgs
