@@ -101,7 +101,7 @@ header .links a:hover
 .layer1
 {
 	width: 93%;
-	height: 100vh;
+	height: auto;
 
 	padding:1% 2%;
 	margin: auto;
